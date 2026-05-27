@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medical Education</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+margin:0;
+padding:0;
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#eef8ff,#ffffff);
+}
+
+.edu-container{
+max-width:1200px;
+margin:80px auto;
+padding:50px;
+background:white;
+border-radius:25px;
+box-shadow:0 20px 50px rgba(0,0,0,0.08);
+display:flex;
+gap:60px;
+align-items:center;
+}
+
+.edu-left{
+flex:1;
+}
+
+.edu-left img{
+width:100%;
+height:550px;
+object-fit:cover;
+border-radius:25px;
+box-shadow:0 12px 30px rgba(0,0,0,.15);
+}
+
+.edu-right{
+flex:1;
+}
+
+.edu-tag{
+display:inline-block;
+padding:10px 20px;
+background:#caf0f8;
+color:#0077b6;
+border-radius:30px;
+font-weight:600;
+margin-bottom:20px;
+font-size:15px;
+}
+
+.edu-right h1{
+font-size:52px;
+color:#023e8a;
+margin-bottom:20px;
+line-height:1.2;
+}
+
+.edu-right p{
+font-size:18px;
+line-height:1.8;
+color:#555;
+margin-bottom:30px;
+}
+
+.edu-list{
+list-style:none;
+padding:0;
+}
+
+.edu-list li{
+padding:16px;
+margin-bottom:14px;
+background:#f8fbff;
+border-left:6px solid #00b4d8;
+border-radius:12px;
+font-weight:500;
+font-size:17px;
+transition:.3s;
+}
+
+.edu-list li:hover{
+transform:translateX(8px);
+background:#eefaff;
+}
+
+.learn-btn{
+display:inline-block;
+margin-top:25px;
+padding:16px 35px;
+border-radius:40px;
+background:linear-gradient(135deg,#0077b6,#00b4d8);
+color:white;
+text-decoration:none;
+font-weight:600;
+font-size:16px;
+box-shadow:0 8px 20px rgba(0,119,182,.25);
+transition:.4s;
+}
+
+.learn-btn:hover{
+transform:translateY(-5px);
+}
+
+@media(max-width:768px){
+
+.edu-container{
+flex-direction:column;
+padding:25px;
+}
+
+.edu-left img{
+height:300px;
+}
+
+.edu-right h1{
+font-size:34px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="edu-container">
+
+<div class="edu-left">
+<img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=900&q=80" alt="Medical Education">
+</div>
+
+<div class="edu-right">
+
+<div class="edu-tag">🎓 Medical Excellence</div>
+
+<h1>Medical Education</h1>
+
+<p>
+Chattagram Maa-O-Shishu Hospital Medical College provides world-class academic excellence through practical clinical exposure, modern research facilities and advanced healthcare learning systems.
+</p>
+
+<ul class="edu-list">
+<li>MBBS Academic Program</li>
+<li>Clinical Internship Training</li>
+<li>Nursing Education</li>
+<li>Simulation Based Practice</li>
+<li>Medical Workshops & Seminars</li>
+<li>Research Development Program</li>
+</ul>
+
+<a href="index.html" class="learn-btn">⬅ Back Home</a>
+
+</div>
+
+</div>
+
+</body>
+</html>

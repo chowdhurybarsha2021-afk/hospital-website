@@ -1,0 +1,25 @@
+<h2>Upload Medical Report</h2>
+
+<form action="upload_report.php" method="POST" enctype="multipart/form-data">
+
+<input type="text" name="patient_name" placeholder="Patient Name" required>
+
+<input type="text" name="report_id" placeholder="Report ID" required>
+
+<input type="text" name="report_type" placeholder="Type (Blood/X-Ray)" required>
+
+<input type="file" name="file" required>
+
+<button type="submit">Upload Report</button>
+
+</form>
+
+<h2>Download Medical Report</h2>
+
+<form action="report.php" method="GET">
+
+<input type="text" name="report_id" placeholder="Enter Report ID" required>
+
+<button type="submit">Search Report</button>
+
+</form>

@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chattagram Maa O Shishu Hospital</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER ================= -->
+<header>
+
+<div class="logo">
+<img src="images/logo.png" alt="Hospital Logo">
+<h2>Chattagram Maa O Shishu Hospital</h2>
+</div>
+
+<div class="right-side">
+
+<div class="menu-container">
+
+<button class="menu-btn">☰Menu</button>
+<button class="menu-toggle">☰</button>
+<button id="darkModeBtn">🌙 Dark Mode</button>
+<button class="appointment-btn" onclick="showAppointment()">
+Appointment
+</button>
+<div class="dropdown-menu">
+
+<a class="home" href="#home">Home</a>
+<a class="about" href="#about">About</a>
+<a class="services" href="#services">Services</a>
+<a class="portal" href="#portal">Patient Portal</a>
+<a class="education" href="#education">Education</a>
+<a class="research" href="#research">Research</a>
+<a class="departments" href="#departments">Departments</a>
+<a class="campuses" href="#campuses">Campuses</a>
+<a class="dashboard" href="#" onclick="openAdminLogin(event)">Dashboard</a>
+<a href="#" onclick="toggleGallery()">Gallery</a>
+<a href="" onclick="showPayment(); return false;">Payment</a>
+</div>
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+<h1>Trusted Healthcare for Mothers & Children</h1>
+<p>Advanced healthcare with expert doctors and modern facilities.</p>
+</div>
+
+</section>
+
+<!-- ================= PRESIDENT SECTION ================= -->
+
+<section class="president-section">
+
+<div class="president-container">
+
+    <!-- Left Image -->
+    <div class="president-image">
+
+        <div class="image-border">
+
+        <img src="./images/president.jpg" alt="President" width="300">
+
+        </div>
+
+    </div>
+
+    <!-- Right Content -->
+    <div class="president-content">
+
+        <span class="president-tag">
+            President Message
+        </span>
+
+        <h2>
+            Welcome To Chattagram Maa-O-Shishu Hospital
+        </h2>
+
+        <p>
+            We are committed to providing modern, affordable,
+            and compassionate healthcare services for mothers,
+            children, and families across Bangladesh.
+        </p>
+
+        <p>
+            Our hospital continuously improves patient care,
+            medical education, and advanced treatment facilities
+            using modern healthcare technology.
+        </p>
+
+        <div class="president-info">
+
+            <h3>Syed Md. Morshed Hossain</h3>
+
+            <span>
+            President, Executive Committee
+            </span>
+
+        </div>
+
+        <a href="#about" class="president-btn">
+            Read More
+        </a>
+
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- ================= ABOUT FULL CONTENT ================= -->
+
+<section class="section" id="about">
+
+<h2>About Hospital</h2>
+
+<div class="about-tabs">
+
+<button class="tab-btn active" data-tab="about1">About Hospital</button>
+<button class="tab-btn" data-tab="mission">Mission & Vision</button>
+<button class="tab-btn" data-tab="management">Management</button>
+<button class="tab-btn" data-tab="executive">Executive Committee</button>
+<button class="tab-btn" data-tab="fund">Source of Fund</button>
+<button class="tab-btn" data-tab="allocation">Allocations</button>
+<button class="tab-btn" data-tab="model">Master Plan</button>
+</div>
+
+<div id="about1" class="tab-content active">
+The parent organization started its journey in the year 1979 as Chattogram Shishu Hospital. 
+It was a humble beginning in an unfinished government building in Agrabad with permission of Ministry of Health.
+Later it expanded step by step and became a 150 bed hospital in 1988. In 1994 maternity services were added 
+and the hospital was renamed as “Chattogram Maa-O-Shishu Hospital”.
+At present it is a 650-bedded hospital including Pediatrics, Neonatology, Surgery, Gynecology, Medicine and many departments. 
+OPD services serve 1000–1500 patients daily with emergency services available 24/7.
+Radiology, X-ray, Ultrasound (2D & 3D with Color Doppler), Clinical Pathology, Hematology, Biochemistry and Blood Transfusion services are available round the clock.
+</div>
+
+<div id="mission" class="tab-content">
+Our mission is to attain international standard healthcare services in Maternal and Child Health care along with advanced services in all departments including surgery, medicine, ENT, dermatology, psychiatry and more.
+Our vision is to convert this area into a world-class Medical Village with international standard teaching, learning, research and service in both preventive and curative medicine.
+</div>
+
+<div id="management" class="tab-content">
+The hospital has about 10435 life members who elect a 24-member committee every 3 years.
+The committee manages hospital functions through sub-groups. All policies are implemented by officers and staff.
+</div>
+
+<div id="executive" class="tab-content">
+Executive Committee includes:
+President (1), Vice President (3), General Secretary (1), Joint General Secretary (1), Treasurer (1), Joint Treasurer (1),
+Organising Secretary (1), Sports & Cultural Secretary (1), Members (13), Donor Members (2),
+Govt Representative (1), Ex Officio Directors (Admin & Academic).
+</div>
+
+<div id="fund" class="tab-content">
+The hospital is funded through donations, services income, NGOs, international organizations and zakat funds.
+Mega donors include PHP Group, Unilever Bangladesh, Rotary Club, Lions Club, Apex Club, KAFCO, Inner Wheel Club and others.
+</div>
+
+<div id="allocation" class="tab-content">
+Funds are allocated into:
+General Fund, Trust Fund, Recurrent Expenditure Fund, Zakat Fund, Patient Welfare Fund,
+Employee Welfare Fund and Neonatology Development Fund.
+</div>
+
+<div id="model" class="tab-content">
+A master layout plan is in progress on 4.2637 acres of land leased by Government of Bangladesh.
+The aim is to build a complete Medical Village with modern infrastructure.
+</div>
+
+</section>
+
+<!-- ================= SERVICES ================= -->
+
+<section class="section services-section" id="services">
+
+<h2>Our Medical Services</h2>
+
+<p class="service-top-text">
+We provide modern healthcare services with advanced medical technology,
+specialist doctors, and 24/7 emergency support.
+</p>
+
+<div class="services-grid">
+
+    <!-- Child Care -->
+    <div class="service-card">
+
+        <div class="service-icon">🧒</div>
+
+        <h3>Child Care</h3>
+
+        <p>
+        Specialized pediatric care for newborns, infants, and children.
+        Vaccination and emergency child treatment available.
+        </p>
+
+        <span class="service-status">24/7 Available</span>
+
+       <!-- Child Care -->
+<a class="learn-btn"
+href="service-details.html?title=Child%20Care&info=We%20provide%20full%20pediatric%20care%20including%20newborn%20treatment,%20vaccination,%20growth%20monitoring,%20and%20emergency%20child%20support%2024/7.%20Experienced%20pediatric%20doctors%20are%20always%20available.">
+Learn More
+</a> 
+
+    </div>
+
+    <!-- Mother Care -->
+    <div class="service-card">
+
+        <div class="service-icon">🤱</div>
+
+        <h3>Mother Care</h3>
+
+        <p>
+        Pregnancy checkups, safe delivery, maternity care,
+        and postnatal treatment with expert gynecologists.
+        </p>
+
+        <span class="service-status">Special Support</span>
+
+     <!-- Mother Care -->
+<a class="learn-btn"
+href="service-details.html?title=Mother%20Care&info=Complete%20maternity%20care%20including%20pregnancy%20checkups,%20safe%20delivery,%20cesarean%20support,%20postnatal%20care,%20and%20emergency%20gynecology%20services%20with%20expert%20doctors.">
+Learn More
+</a>
+
+    </div>
+
+    <!-- Emergency -->
+    <div class="service-card">
+
+        <div class="service-icon">🚑</div>
+
+        <h3>Emergency Service</h3>
+
+        <p>
+        Emergency unit operates 24 hours with ambulance,
+        ICU support, and emergency doctors.
+        </p>
+
+        <span class="service-status">Always Open</span>
+
+     <!-- Emergency Service -->
+<a class="learn-btn"
+href="service-details.html?title=Emergency%20Service&info=24/7%20emergency%20medical%20support%20with%20ICU,%20ambulance,%20trauma%20care,%20and%20rapid%20response%20team.%20Critical%20patients%20are%20handled%20immediately%20by%20experienced%20emergency%20doctors%20and%20nurses.">
+Learn More
+</a>   
+        
+
+    </div>
+
+    <!-- Lab -->
+    <div class="service-card">
+
+        <div class="service-icon">🧪</div>
+
+        <h3>Diagnostic Lab</h3>
+
+        <p>
+        Modern pathology, blood tests, biochemistry,
+        and microbiology laboratory facilities.
+        </p>
+
+        <span class="service-status">Advanced Testing</span>
+
+     <!-- Diagnostic Lab -->
+<a class="learn-btn"
+href="service-details.html?title=Diagnostic%20Lab&info=Advanced%20diagnostic%20laboratory%20with%20blood%20tests,%20urine%20analysis,%20microbiology,%20pathology,%20and%20biochemistry%20services.%20Fast%20and%20accurate%20reporting%20using%20modern%20automated%20machines.">
+Learn More
+</a>   
+
+    </div>
+
+    <!-- Radiology -->
+    <div class="service-card">
+
+        <div class="service-icon">🩻</div>
+
+        <h3>Radiology & Imaging</h3>
+
+        <p>
+        Digital X-Ray, CT Scan, Ultrasonography,
+        and Color Doppler services available.
+        </p>
+
+        <span class="service-status">Modern Equipment</span>
+
+     <!-- Radiology & Imaging -->
+<a class="learn-btn"
+href="service-details.html?title=Radiology%20and%20Imaging&info=Digital%20X-Ray,%20CT%20Scan,%20MRI%20support,%20Ultrasound,%20and%20Color%20Doppler%20imaging%20services.%20High-resolution%20diagnostic%20imaging%20for%20accurate%20disease%20detection.">
+Learn More
+</a>   
+
+    </div>
+
+    <!-- ICU -->
+    <div class="service-card">
+
+        <div class="service-icon">🏥</div>
+
+        <h3>ICU & NICU</h3>
+
+        <p>
+        Intensive Care Unit and Neonatal ICU
+        with advanced life-support systems.
+        </p>
+
+        <span class="service-status">Critical Care</span>
+
+     <!-- ICU & NICU -->
+<a class="learn-btn"
+href="service-details.html?title=ICU%20and%20NICU&info=Intensive%20Care%20Unit%20(ICU)%20and%20Neonatal%20ICU%20(NICU)%20equipped%20with%20advanced%20life-support%20systems,%20ventilators,%20and%20continuous%20patient%20monitoring%20for%20critical%20care%20patients%20and%20newborn%20babies.">
+Learn More
+</a> 
+
+    </div>
+
+    <!-- Pharmacy -->
+    <div class="service-card">
+
+        <div class="service-icon">💊</div>
+
+        <h3>24 Hour Pharmacy</h3>
+
+        <p>
+        Genuine medicines and emergency medical supplies
+        available all day and night.
+        </p>
+
+        <span class="service-status">Open 24 Hours</span>
+
+     <!-- ICU & NICU -->
+    <a class="learn-btn"
+href="service-details.html?title=24%20Hour%20Pharmacy&info=Hospital%20pharmacy%20provides%20genuine%20medicines,%20emergency%20drug%20support,%20prescription%20services,%20and%2024/7%20availability%20for%20all%20patients.">
+Learn More
+</a>
+
+    </div>
+
+    <!-- Blood Bank -->
+    <div class="service-card">
+
+        <div class="service-icon">🩸</div>
+
+        <h3>Blood Bank</h3>
+
+        <p>
+        Safe blood collection and emergency blood transfusion
+        support for patients.
+        </p>
+
+        <span class="service-status">Emergency Ready</span>
+
+       <!-- Blood Bank -->
+<a class="learn-btn"
+href="service-details.html?title=Blood%20Bank&info=Safe%20and%20screened%20blood%20collection%20system%20with%20emergency%20blood%20transfusion%20support.%20Blood%20grouping,%20storage,%20and%20quick%20supply%20for%20critical%20patients%20and%20surgeries.">
+Learn More
+</a>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- ================= PATIENT PORTAL ================= -->
+<section class="section" id="portal">
+
+<h2>Patient Portal</h2>
+
+<form id="searchForm">
+<input type="text" id="searchReportId" placeholder="Enter Report ID" required>
+<button type="submit">Search</button>
+</form>
+
+<div id="uploadSection" style="display:none;">
+
+<h2>Upload Report</h2>
+
+<form id="uploadForm">
+
+<input type="text" name="patient_name" placeholder="Patient Name" required>
+
+<input type="text" id="uploadReportId" placeholder="Report ID" required>
+
+<select name="type">
+<option>Blood</option>
+<option>X-Ray</option>
+</select>
+
+<input type="file" id="reportFile" required>
+
+<button type="submit">Upload Report</button>
+
+</form>
+
+<hr>
+
+<h2>Download Medical Report</h2>
+
+<form id="downloadForm">
+<input type="text" id="downloadReportId" placeholder="Enter Report ID" required>
+<button type="submit">Download</button>
+</form>
+
+</div>
+
+</section>
+
+<!-- ================= Hospital Excellence ================= -->
+
+<section class="section info-section" id="education">
+
+<h2>Hospital Excellence</h2>
+
+<div class="info-grid">
+
+<!-- Education -->
+<div class="info-card">
+<div class="info-icon">🎓</div>
+<h3>Education</h3>
+<p>
+Advanced medical education, clinical practice, workshops, internship and professional healthcare training programs.
+</p>
+<a class="learn-btn" href="education.html">Learn More</a>
+</div>
+
+<!-- Research -->
+<div class="info-card" id="research">
+<div class="info-icon">🔬</div>
+<h3>Research</h3>
+<p>
+Modern healthcare research, disease analysis and innovation for advanced treatment solutions.
+</p>
+<a class="learn-btn" href="research.html">Learn More</a>
+</div>
+
+<!-- Departments -->
+<div class="info-card" id="departments">
+<div class="info-icon">🏥</div>
+<h3>Departments</h3>
+<p>
+Pediatrics, Surgery, Medicine, ENT, Orthopedics and many specialist treatment units.
+</p>
+<a class="learn-btn" href="departments.html">Learn More</a>
+</div>
+
+<!-- Campuses -->
+<div class="info-card" id="campuses">
+<div class="info-icon">🌍</div>
+<h3>Campuses</h3>
+<p>
+Modern hospital branches with emergency support and specialist healthcare services.
+</p>
+<a class="learn-btn" href="campuses.html">Learn More</a>
+</div>
+
+</div>
+
+</section>
+<!-- ================= DOCTORS ================= -->
+
+<section class="section" id="doctors">
+
+<h2>Our Specialist Doctors</h2>
+
+<div class="doctor-grid">
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Fazle-Kibria-Chowdhury.jpg">
+<h3>Prof. Dr.Mohammad Fazle Kibria Chowdhury </h3>
+<p class="specialist">Chest & Respiratory Medicine Specialist</p>
+<p>MBBS (DMC), MD (Chest), CCD (BIRDEM), FCCP (USA), FCCS (SG) (Cardiology)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+
+</div>
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Monira-Jamal.jpg">
+<h3>Dr. Monira Jamal</h3>
+<p class="specialist">Gynecology, Obstetrics Specialist & Surgeon</p>
+<p>MBBS, FCPS (OBGYN)(Gynae)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+<button>Book Appointment</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/Prof.-Dr.-Mahmood-Ahmed-Chowdhury-Arzu.jpg">
+<h3>Dr.Mahmood-Ahmed-Chowdhury-Arzu </h3>
+<p class="specialist">Newborn, Adolescent & Child Diseases Specialist</p>
+<p>MBBS, DCH, FCPS (Pediatrics), FRCP (UK)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+<button>Book Appointment</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/Prof.-Dr.-Farid-Ul-Alam.jpg">
+<h3>Dr.Farid-Ul-Alam</h3>
+<p class="specialist">Child Diseases Specialist</p>
+<p>MBBS, FCPS (Pediatrics), DME (UK)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+<button>Book Appointment</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/2025/02/Dr.-Salma-Akter-Shimu.jpg">
+<h3>Dr.Salma-Akter-Shimu</h3>
+<p class="specialist">Gynecology, Obstetrics Specialist & Laparoscopic Surgeon</p>
+<p>MBBS, MCPS, FCPS (OBGYN)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+<button>Book Appointment</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/Dr.-A.N.M-Humayun-Kabir.jpg">
+<h3>Dr. A.N.M-Humayun-Kabir</h3>
+<p class="specialist">Orthopedics (Bone, Joint, Injury, Arthritis) Specialist & Trauma Surgeon</p>
+<p>MBBS, D-ORTHO (Traumatology)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+<button>Book Appointment</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/Prof.-Dr.-Mozammel-Hoque.jpg">
+<h3>Prof. Dr. Md. Mozammel Haque</h3>
+<p class="specialist">Pediatric Surgery Specialist & Pediatric Laparoscopic Surgeon</p>
+<p>MBBS, MS (Pediatric Surgery), FACS (USA)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+<button>Book Appointment</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/2020/11/Prof.-Dr.-Md-Saifuddin-Ahmed-Siddique-Suza.jpg">
+<h3>Prof. Dr. Md Saifuddin Ahmed Siddique (Suza)</h3>
+<p class="specialist">Urology (Kidney, Prostate, Ureter, Hernia, Scrotum) Specialist & Surgeon</p>
+<p>MBBS, MS (Urology), FACS (USA)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+<button>Book Appointment</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Sowrabh-Biswas.jpg">
+<h3>Dr. Sowrabh Biswas</h3>
+<p class="specialist">Thoracic & Esophageal Surgeon</p>
+<p>MBBS, MS (Thoracic Surgery)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+<button>Book Appointment</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Jasmin-Begum.jpg">
+<h3>Dr. Jasmin Begum</h3>
+<p class="specialist">General & Breast Cancer Surgery Specialist</p>
+<p>MBBS, FCPS (Surgery)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+<button>Book Appointment</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/2024/10/Dr.-Shakir-Ur-Rashid.jpg">
+<h3>Dr. Shakir Ur Rashid</h3>
+<p class="specialist">Physical Medicine (Arthritis, Pain, Paralysis, Stroke Rehab) Specialist</p>
+<p>MBBS, FCPS (Physical Medicine)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+<button>Book Appointment</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://www.doctorbangladesh.com/wp-content/uploads/2021/01/Dr.-Farahnaz-Mabud-Silvi.jpg">
+<h3>Dr. Farahnaz Mabud Silvi</h3>
+<p class="specialist">Infertility, Gynecology, Obstetrics Specialist & Surgeon</p>
+<p>MBBS, MCPS (Obs & Gyne), MS (Obs & Gyne), FRM (Fellowship in Reproductive Medicine)
+Higher Training in Infertility (Bangalore, India)</p>
+<p>Chattogram Maa-O-Shishu Hospital Medical College</p>
+<button>Book Appointment</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= STATISTICS ================= -->
+
+<section class="section stats-section">
+
+<h2>Hospital Statistics</h2>
+
+<div class="stats-grid">
+
+<div class="stat-box">
+<h3 class="counter" data-target="650">0</h3>
+<p>Hospital Beds</p>
+</div>
+
+<div class="stat-box">
+<h3 class="counter" data-target="120">0</h3>
+<p>Specialist Doctors</p>
+</div>
+
+<div class="stat-box">
+<h3 class="counter" data-target="50000">0</h3>
+<p>Happy Patients</p>
+</div>
+
+<div class="stat-box">
+<h3 class="counter" data-target="24">0</h3>
+<p>Emergency Support</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= ADMIN LOGIN ================= -->
+
+<div id="adminModal" class="admin-modal">
+
+    <div class="admin-box">
+
+        <h2>Admin Login</h2>
+
+        <input type="text" id="adminUser" placeholder="Username">
+
+        <input type="password" id="adminPass" placeholder="Password">
+
+        <button onclick="adminLogin()">Login</button>
+
+        <button class="close-btn" onclick="closeAdminLogin()">Close</button>
+
+        <p id="loginMsg"></p>
+
+    </div>
+
+</div>
+
+<!-- ================= APPOINTMENT ================= -->
+
+<section class="section" id="appointmentBox" style="display:none;">
+
+<h2>Book Appointment</h2>
+
+<form id="appointmentForm">
+
+<input id="patientName" type="text" placeholder="Patient Name" required>
+
+<input id="patientPhone" type="text" placeholder="Phone Number" required>
+
+<select id="doctorSelect" required>
+<option value="">Select Doctor</option>
+<option>Prof. Dr. Mohammad Fazle Kibria Chowdhury</option>
+<option>Dr. Monira Jamal</option>
+<option>Dr. Mahmood Ahmed Chowdhury Arzu</option>
+<option>Dr. Farid-Ul-Alam</option>
+<option>Dr. Salma Akter Shimu</option>
+<option>Dr. A.N.M Humayun Kabir</option>
+<option>Prof. Dr. Md. Mozammel Haque</option>
+</select>
+
+<select id="department" required>
+<option value="">Select Department</option>
+<option>Pediatrics</option>
+<option>Gynecology</option>
+<option>Orthopedics</option>
+<option>Surgery</option>
+<option>Medicine</option>
+</select>
+
+<input id="appointmentDate" type="date" required>
+
+<input id="appointmentTime" type="time" required>
+
+<select id="status">
+<option>Pending</option>
+<option>Confirmed</option>
+<option>Completed</option>
+</select>
+
+<button type="submit">Book Appointment</button>
+
+</form>
+
+<hr>
+
+<div class="login-container">
+
+<h2>Patient Registration</h2>
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<input type="text" placeholder="Phone" required>
+
+<input type="password" placeholder="Password" required>
+
+<button type="submit">Register</button>
+
+</form>
+
+<a href="#">Already have account?</a>
+
+</div>
+
+</section>
+
+<!-- ================= Notice Board ================= -->
+
+<section class="notice-board" id="notice">
+
+    <h2>Notice Board</h2>
+
+    <div class="notice-container">
+
+        <div class="notice-item">
+
+            <div class="notice-title" onclick="toggleNotice(this)">
+                📢 Emergency Services Available
+            </div>
+
+            <div class="notice-content">
+                Emergency services are available 24/7 for all critical patients.  
+                Our emergency team is always ready with ICU support and rapid response system.  
+                Patients get immediate treatment without delay.
+            </div>
+
+        </div>
+
+
+        <div class="notice-item">
+
+            <div class="notice-title" onclick="toggleNotice(this)">
+                🚑 Ambulance Service Ready
+            </div>
+
+            <div class="notice-content">
+                Ambulance service is available day and night.  
+                Fast transport with trained medical support is provided.  
+                Life-saving care is ensured during transportation.
+            </div>
+
+        </div>
+
+
+        <div class="notice-item">
+
+            <div class="notice-title" onclick="toggleNotice(this)">
+                👨‍⚕️ New Doctors Joined
+            </div>
+
+            <div class="notice-content">
+                New specialist doctors have joined Pediatrics and Gynecology departments.  
+                They bring advanced experience in patient care and treatment.
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= DASHBOARD ================= -->
+<section id="dashboard" style="display:none;">
+
+<h2>Appointment Dashboard</h2>
+
+<button class="logout-btn" onclick="logoutAdmin()">Logout</button>
+
+<div class="dashboard-table">
+
+<h3>Appointment Records</h3>
+
+<table border="1">
+
+<thead>
+<tr>
+<th>Serial</th>
+<th>Patient</th>
+<th>Phone</th>
+<th>Doctor</th>
+<th>Department</th>
+<th>Date</th>
+<th>Time</th>
+<th>Status</th>
+</tr>
+</thead>
+
+<tbody id="appointmentList"></tbody>
+
+</table>
+
+<br><br>
+
+<h3>Payment Records</h3>
+
+<table border="1">
+
+<thead>
+<tr>
+<th>Patient</th>
+<th>Phone</th>
+<th>Amount</th>
+<th>Method</th>
+<th>Transaction ID</th>
+</tr>
+</thead>
+
+<tbody id="paymentList"></tbody>
+
+</table>
+
+</div>
+
+</section>
+
+<!-- ================= Payment Form ================= -->
+ <section class="section" id="payment" style="display:none;">
+
+<h2>Online Payment</h2>
+
+<form id="paymentForm">
+
+<input type="text" name="patient_name" placeholder="Patient Name" required>
+
+<input type="text" name="phone" placeholder="Phone Number" required>
+
+<input type="text" name="amount" placeholder="Amount" required>
+
+<select name="payment_method">
+<option>bKash</option>
+<option>Nagad</option>
+<option>SSLCommerz</option>
+</select>
+
+<input type="text" name="transaction_id" placeholder="Transaction ID" required>
+
+<button type="submit">Pay Now</button>
+
+</form>
+
+</section>
+
+
+
+<!-- ================= GALLERY SECTION ================= -->
+
+<section class="gallery-section" id="gallery" style="display:none;">
+    <h2>Hospital Gallery</h2>
+
+    <p class="gallery-subtitle">
+        Explore our modern hospital departments and healthcare facilities.
+    </p>
+
+    <div class="gallery-grid">
+
+        <!-- ICU -->
+        <div class="gallery-card">
+            <a href="icu.html">
+                <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=800&q=80">
+                <h3>ICU</h3>
+            </a>
+        </div>
+
+        <!-- Emergency -->
+        <div class="gallery-card">
+            <a href="emergency.html">
+                <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?auto=format&fit=crop&w=800&q=80">
+                <h3>Emergency</h3>
+            </a>
+        </div>
+
+        <!-- Lab -->
+        <div class="gallery-card">
+            <a href="lab.html">
+                <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=80">
+                <h3>Laboratory</h3>
+            </a>
+        </div>
+
+        <!-- Doctors -->
+        <div class="gallery-card">
+            <a href="doctors.html">
+                <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=800&q=80">
+                <h3>Doctors</h3>
+            </a>
+        </div>
+
+        <!-- Ambulance -->
+        <div class="gallery-card">
+            <a href="ambulance.html">
+                <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=800&q=80">
+                <h3>Ambulance</h3>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Contact -->
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+            <p><strong>Call Us:</strong><br>
+            02333311432<br>
+            02333315822<br>
+            02333317799</p>
+
+            <p><strong>Email:</strong><br>
+            cmoshmedicalcollege@gmail.com</p>
+            Email: <a href="mailto:cmoshctg@gmail.com">cmoshctg@gmail.com</a> 
+        </div>
+
+        <!-- Working Hours -->
+        <div class="footer-box">
+            <h3>Working Hours</h3>
+            <p>We work 6 days a week.</p>
+            <p>Emergency Hotline:<br>
+            +8809610800999</p>
+
+            <p>Saturday - Thursday:<br>
+            24 Hours</p>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-box">
+            <h3>Services</h3>
+            <ul>
+                <li>Ambulance</li>
+                <li>Pharmacy</li>
+                <li>Blood Bank</li>
+            </ul>
+        </div>
+
+        <!-- Important Links -->
+        <div class="footer-box">
+            <h3>Important Link</h3>
+            <ul>
+                <li>Medical College</li>
+                <li>Nursing Institute</li>
+                <li>Nursing College</li>
+                <li>Inst. of Child Health</li>
+                <li>Cancer & Research</li>
+                <li>Inst. of Autism Child Development</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="footer-bottom">
+        <p>© Chattogram Maa-O-Shishu Hospital</p>
+        <p>Developed By: CMOSH IT</p>
+    </div>
+
+</footer>
+
+<!-- ================= SERVICE MODAL ================= -->
+
+<div id="serviceModal" class="service-modal">
+
+    <div class="service-box">
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalInfo"></p>
+
+        <button onclick="closeServiceModal()">Close</button>
+
+    </div>
+
+</div>
+<script>
+
+function showAppointment(){
+
+var box=document.getElementById("appointmentBox");
+
+if(box.style.display=="block"){
+
+box.style.display="none";
+
+}else{
+
+box.style.display="block";
+
+location.href="#appointmentBox";
+
+}
+
+}
+
+</script>
+<script>
+
+function showPayment(){
+
+let pay=document.getElementById("payment");
+
+if(pay.style.display=="none" || pay.style.display==""){
+
+pay.style.display="block";
+
+pay.scrollIntoView({
+behavior:"smooth"
+});
+
+}else{
+
+pay.style.display="none";
+
+}
+
+}
+
+</script>
+
+<script>
+
+document.querySelector("#payment form").addEventListener("submit",function(e){
+
+e.preventDefault();
+
+let patient=this.patient_name.value;
+let phone=this.phone.value;
+let amount=this.amount.value;
+let method=this.payment_method.value;
+let trx=this.transaction_id.value;
+
+let payments=JSON.parse(localStorage.getItem("payments")) || [];
+
+payments.push({
+patient,phone,amount,method,trx
+});
+
+localStorage.setItem("payments",JSON.stringify(payments));
+
+showPayments();
+
+this.reset();
+
+alert("Payment Saved!");
+
+});
+
+function showPayments(){
+
+let payments=JSON.parse(localStorage.getItem("payments")) || "";
+
+let output="";
+
+payments.forEach(p=>{
+
+output+=`
+<tr>
+<td>${p.patient}</td>
+<td>${p.phone}</td>
+<td>${p.amount}</td>
+<td>${p.method}</td>
+<td>${p.trx}</td>
+</tr>
+`;
+
+});
+
+document.getElementById("paymentList").innerHTML=output;
+
+}
+
+showPayments();
+
+</script>
+<script src="script.js"></script>
+</body>
+</html>

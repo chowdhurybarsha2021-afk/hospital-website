@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campuses | Chattagram Maa-O-Shishu Hospital</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#eef7ff,#ffffff);
+overflow-x:hidden;
+}
+
+/* HERO */
+
+.hero{
+height:80vh;
+background:
+linear-gradient(rgba(0,40,80,.55),rgba(0,40,80,.55)),
+url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero-content h1{
+font-size:70px;
+font-weight:700;
+margin-bottom:20px;
+}
+
+.hero-content p{
+font-size:22px;
+opacity:.95;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:1350px;
+margin:100px auto;
+padding:20px;
+}
+
+.section-title{
+text-align:center;
+font-size:48px;
+color:#023e8a;
+margin-bottom:15px;
+}
+
+.section-sub{
+text-align:center;
+font-size:19px;
+color:#666;
+margin-bottom:70px;
+}
+
+/* CAMPUS CARD */
+
+.campus-card{
+display:flex;
+background:rgba(255,255,255,.75);
+backdrop-filter:blur(18px);
+border-radius:28px;
+overflow:hidden;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+margin-bottom:40px;
+transition:.5s;
+border:1px solid rgba(255,255,255,.5);
+}
+
+.campus-card:hover{
+transform:translateY(-12px);
+box-shadow:0 25px 55px rgba(0,119,182,.18);
+}
+
+.campus-card img{
+width:45%;
+object-fit:cover;
+}
+
+.campus-info{
+padding:45px;
+flex:1;
+}
+
+.campus-tag{
+display:inline-block;
+padding:8px 18px;
+background:linear-gradient(135deg,#0077b6,#00d4ff);
+color:white;
+border-radius:30px;
+font-weight:600;
+margin-bottom:20px;
+}
+
+.campus-info h2{
+font-size:34px;
+color:#023e8a;
+margin-bottom:20px;
+}
+
+.campus-info p{
+font-size:17px;
+line-height:1.9;
+color:#555;
+}
+
+/* BUTTON */
+
+.back-btn{
+display:block;
+width:240px;
+margin:90px auto;
+padding:18px;
+text-align:center;
+border-radius:50px;
+background:linear-gradient(135deg,#0077b6,#00b4d8);
+color:white;
+text-decoration:none;
+font-weight:600;
+font-size:17px;
+box-shadow:0 10px 25px rgba(0,119,182,.25);
+transition:.4s;
+}
+
+.back-btn:hover{
+transform:translateY(-5px);
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.hero-content h1{
+font-size:42px;
+}
+
+.hero-content p{
+font-size:18px;
+}
+
+.section-title{
+font-size:34px;
+}
+
+.campus-card{
+flex-direction:column;
+}
+
+.campus-card img{
+width:100%;
+height:280px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Hospital Campuses</h1>
+<p>Advanced Healthcare Network Across Multiple Locations</p>
+</div>
+</section>
+
+<div class="container">
+
+<h2 class="section-title">Our Campuses</h2>
+
+<p class="section-sub">
+Delivering excellence in healthcare through modern medical facilities
+</p>
+
+<!-- CAMPUS 1 -->
+
+<div class="campus-card">
+<img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d">
+
+<div class="campus-info">
+<div class="campus-tag">Main Campus</div>
+<h2>Central Hospital Complex</h2>
+<p>
+The primary healthcare facility offering emergency services, intensive care units, specialist consultations and advanced surgical operations 24/7 with state-of-the-art technology.
+</p>
+</div>
+</div>
+
+<!-- CAMPUS 2 -->
+
+<div class="campus-card">
+<img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80">
+
+<div class="campus-info">
+<div class="campus-tag">Academic Campus</div>
+<h2>Medical College Campus</h2>
+<p>
+Dedicated to medical education, practical clinical training, modern classrooms and research laboratories for future healthcare professionals.
+</p>
+</div>
+</div>
+
+<!-- CAMPUS 3 -->
+
+<div class="campus-card">
+<img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907">
+
+<div class="campus-info">
+<div class="campus-tag">Diagnostic Center</div>
+<h2>Diagnostic & Research Campus</h2>
+<p>
+Advanced pathology labs, MRI, CT scan, digital imaging and medical research units for precise diagnosis and innovative treatment solutions.
+</p>
+</div>
+</div>
+
+<a href="index.html" class="back-btn">⬅ Back Home</a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medical Research</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#f4f9ff;
+}
+
+.container{
+max-width:1300px;
+margin:60px auto;
+background:white;
+border-radius:25px;
+overflow:hidden;
+box-shadow:0 20px 60px rgba(0,0,0,.08);
+}
+
+.hero-img{
+width:100%;
+height:500px;
+object-fit:cover;
+display:block;
+}
+
+.content{
+padding:60px;
+}
+
+.tag{
+display:inline-block;
+padding:10px 18px;
+background:#dff7ff;
+color:#0077b6;
+border-radius:30px;
+font-weight:600;
+margin-bottom:20px;
+}
+
+h1{
+font-size:58px;
+color:#023e8a;
+margin-bottom:20px;
+}
+
+p{
+font-size:20px;
+line-height:1.8;
+color:#555;
+margin-bottom:30px;
+}
+
+.list{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+
+.list div{
+padding:18px;
+background:#f8fbff;
+border-left:6px solid #00b4d8;
+border-radius:14px;
+font-size:18px;
+font-weight:500;
+transition:.3s;
+}
+
+.list div:hover{
+transform:translateX(8px);
+background:#eefaff;
+}
+
+.btn{
+display:inline-block;
+margin-top:40px;
+padding:16px 35px;
+background:linear-gradient(135deg,#0077b6,#00b4d8);
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-weight:600;
+}
+
+@media(max-width:768px){
+
+.content{
+padding:25px;
+}
+
+h1{
+font-size:35px;
+}
+
+.list{
+grid-template-columns:1fr;
+}
+
+.hero-img{
+height:250px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<img class="hero-img" src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=80">
+
+<div class="content">
+
+<div class="tag">🔬 Innovation & Discovery</div>
+
+<h1>Medical Research</h1>
+
+<p>
+Chattagram Maa-O-Shishu Hospital Medical College leads innovative healthcare research through clinical investigations, laboratory development and evidence-based medical discoveries.
+</p>
+
+<div class="list">
+<div>Clinical Research Projects</div>
+<div>Disease Analysis</div>
+<div>Medical Innovation</div>
+<div>Laboratory Research</div>
+<div>Healthcare Development</div>
+<div>Scientific Publications</div>
+</div>
+
+<a class="btn" href="index.html">⬅ Back Home</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
