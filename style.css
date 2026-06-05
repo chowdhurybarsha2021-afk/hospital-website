@@ -43,6 +43,7 @@ gap:10px;
 width:55px;
 height:55px;
 object-fit:contain;
+display:block;
 }
 
 .logo h2{
@@ -859,11 +860,11 @@ transform:scale(1.05);
 }
 
 .image-border img{
-    width:320px;
-    border-radius:25px;
-    display:block;
+width:320px;
+border-radius:25px;
+display:block;
+object-fit:cover;
 }
-
 /* Content Side */
 
 .president-content{
